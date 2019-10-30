@@ -1,0 +1,40 @@
+.video {
+    cursor: pointer;
+}
+
+.video__thumbnail {
+    height: 118px;
+    background-color: #e7e7e7;
+}
+
+.video__thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video__info {
+    padding: 0 20px 0 0;
+}
+
+.video__title {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.video__channel-name {
+    font-size: 14px;
+    color: #606060;
+    margin: 3px 0;
+}
+
+.video__stats {
+    font-size: 13px;
+    color: #606060;
+}
+
+.video__stats span:first-child::after {
+    content: '•';
+    margin: 0 4px;
+}

@@ -1,0 +1,25 @@
+.grid-container {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 20px 0;
+}
+
+.header__title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.grid-container__body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px 5px;
+    margin-bottom: 30px;
+}
+
+.show-more {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #606060;
+    font-size: 14px;
+    cursor: pointer;
+}
